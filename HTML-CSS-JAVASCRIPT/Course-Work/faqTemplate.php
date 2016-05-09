@@ -16,7 +16,7 @@ Template Name: FAQ Page
         <h1>Jimmy</h1>
         <p>Singer Extraordinaire</p>
     </header>
-    
+
      <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -25,7 +25,7 @@ Template Name: FAQ Page
         <li><a href="faq.html">FAQ</a></li>
       </ul>
     </nav>
-    
+
     <main>
     <section>
         <h2> Frequently Asked Questions</h2>
@@ -48,7 +48,7 @@ Template Name: FAQ Page
                 <h3>Do we have to pay for specific music?</h3>
             </header>
             <p>Nope! I will always find the music you want for your event and provide it for my musicians. That is all included in my fee.</p>
-            <br> 
+            <br>
         </article>
     </section>
     </main>

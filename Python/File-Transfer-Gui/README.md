@@ -1,7 +1,7 @@
 ### Datetime Drill
 ***
 
-This scenario was split up into 3 different drills. The code included is my finished application that came from all three prompts.
+This scenario was split up into 3 different drills. Below are the different prompts, and the code included is my finished application that came from all three prompts.
 
 1) Once per day, any files that are new or have been modified in the last 24 hours must be transferred to another file destination. Create a folder that stores all new and modified documents and a destination folder to receive said documents. Write a script that will automatically move modified and new files from the working folder to the destination folder once per day.
 
