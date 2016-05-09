@@ -64,7 +64,7 @@ def begin():
                 choice = raw_input("Do you really want to play again? y/n ")
 
     pick = raw_input("Someone approaches you to talk. Will you be nice or mean? n/m ")
-    
+
     if pick =="n":
         print "They smile, wave and walk away."
         nice = nice+1
@@ -77,11 +77,6 @@ def begin():
         mean = mean+1
         print "You currently have " +str(mean) + " mean."
         begin()
-        
 
 
-        
-        
-
-            
-start()    
+start()

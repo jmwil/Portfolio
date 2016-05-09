@@ -7,15 +7,11 @@ In this portfolio you will find examples of the work I have done at The Tech Aca
 
 Check out my LinkedIn and my website to learn more about me.
 
-#### HTML & CSS
-* [HTML & CSS  Examples](./HTML-CSS)
+#### HTMl, CSS, & JavaScript
+* [HTML, CSS, and JavaScript  Examples](./HTML-CSS-JAVASCRIPT)
 
 #### Database & SQL
 * [Database & SQL Examples](./Database-SQL)
-
-#### JavaScript
-* [JavaScript Examples](./JavaScript)
-* [Login Script Drill](./JavaScript/Login-Script-Drill)
 
 #### Python
 * [Python Examples](./Python)
