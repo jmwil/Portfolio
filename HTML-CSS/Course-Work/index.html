@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Jimmy Wilcox</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+      <!--[if lt IE 9]>
+      <script>
+        document.createElement("article");
+        document.createElement("aside");
+        document.createElement("footer");
+        document.createElement("header");
+        document.createElement("main");
+        document.createElement("nav");
+        document.createElement("section");
+      </script>
+      <![endif]-->
+      <link rel="stylesheet" type="text/css" href="lightbox/css/lightbox.css">
+
+      <!-- Angular Material style sheet -->
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.css">
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+      <script>$(document).ready(function() {
+        $( '.dropdown' ).hover(
+            function(){
+                $(this).children('.sub-menu').slideDown(200);
+                },
+            function(){
+                $(this).children('.sub-menu').slideUp(200);
+                }
+            );
+        }); // end ready
+
+      </script>
+  </head>
+  <body>
+    <header class="banner">
+      <h1>Jimmy</h1>
+      <p>Singer Extraordinaire</p>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li class="dropdown">
+            <a href="#">Menu</a>
+            <ul class="sub-menu">
+                <li><a href="/login/login.html">Student Login</a></li>
+                <li><a href="#">Pay Lesson Fees</a></li>
+                <li class="dropdown">
+                    <a href="#">Whats this?</a>
+                    <ul class="sub-menu">
+                        <li><a href="#">...Another</a></li>
+                        <li><a href="#">sub</a></li>
+                        <li><a href="#">menu!</a></li>
+                        <li><a href="https://pbs.twimg.com/profile_images/540521226846740483/w11CS4wD.png">coolbeans.</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <section>
+        <h2>Weddings</h2>
+        <article>
+          <header>
+            <h3>Need a wedding singer?</h3>
+          </header>
+          <p>Although weddings have very traditional and ceremonial roots, lets be real, it's just a great excuse to throw the best party of your life! I work with the best musicians in Portland and I'm here to help you plan the most beautiful music for your wedding ceremony. I seriously can't even count the number of brides I've sung down the aisle.</p>
+        </article>
+      </section>
+        <section>
+        <h2>Funerals</h2>
+        <article>
+          <header>
+            <h3>Need a funeral singer?</h3>
+          </header>
+          <p>Funerals are one of those things that nobody really knows how to plan for and they just happen. (Un)fortunately, I've sung too many funerals to count and know the ins and outs of planning a funeral service. Let me make this transition easier for you by helping you plan the ceremony, whether you want a religious ceremony or a beautiful celebration of life.</p>
+        </article>
+      </section>
+
+      <section>
+        <h2>Private Events</h2>
+        <article>
+          <header>
+            <h3>Need a party singer?</h3>
+          </header>
+          <p>Do you just want some good o'l entertainment? Let's meet for coffee and talk about what you're looking for! I've got many of the standard American Songbook tunes in my repertoire and I love adding my personal flair to help create the perfect ambience to your event.</p>
+        </article>
+      </section>
+
+<div class="container">
+  <div class="login">
+    <h3>Studio Login</h3>
+    <form method="post" action="">
+      <p><input type="text" name="login" value="" placeholder="Username or Email"></p>
+      <p><input type="password" name="password" value="" placeholder="Password"></p>
+      <p class="remember_me">
+        <label>
+          <input type="checkbox" name="remember_me" id="remember_me">
+             Remember me on this computer
+        </label>
+      </p>
+      <p class="submit"><input type="submit" name="commit" value="Login"></p>
+    </form>
+    <div class="login-help">
+        <p>Forgot your password? <a href="#">Click here to reset it</a>.</p>
+      </div>
+    </div>
+</div>
+
+    </main>
+
+    <aside>
+      <h2>Be a singer</h2>
+      <p>Contact Jimmy for information on voice lessons and studio availability.</p>
+        <a href="lightbox/images/myface1.jpg" data-lightbox="myface">photo #1 of my face</a>
+        <a href="lightbox/images/myface2.jpg" data-lightbox="myface">photo #2 of my face</a>
+        <a href="lightbox/images/myface3.jpg" data-lightbox="myface">photo #3 of my face</a>
+    </aside>
+
+<footer>
+    <p>Footer notes</p>
+</footer>
+
+    <!-- LIGHTBOX Script -->
+    <script src="lightbox/js/lightbox.js">
+     lightbox.option({
+          'resizeDuration':200,
+          'wrapAround':true,
+         'alwaysShowNavOnTouchDevices':true
+     })
+
+    </script>
+
+      <!-- Angular Material requires Angular.js Libraries -->
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-aria.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-messages.min.js"></script>
+
+  <!-- Angular Material Library -->
+  <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.js"></script>
+
+  <!-- pplication bootstrap  -->
+  <script type="text/javascript">    
+    angular.module('BlankApp', ['ngMaterial']);
+  </script>
+
+  </body>
+</html>
