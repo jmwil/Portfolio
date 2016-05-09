@@ -9,11 +9,9 @@ Check out my LinkedIn and my website to learn more about me.
 
 #### HTML & CSS
 * [HTML & CSS  Examples](./HTML-CSS)
-* [CSS Login Drill](./HTML-CSS/CSS-Login-Drill)
 
 #### Database & SQL
 * [Database & SQL Examples](./Database-SQL)
-* [City Library Drill](./Database-SQL/City-Library-Drill)
 
 #### JavaScript
 * [JavaScript Examples](./JavaScript)
