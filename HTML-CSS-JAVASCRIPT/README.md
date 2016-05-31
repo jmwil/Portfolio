@@ -1,6 +1,6 @@
-### HTML & CSS Examples
+### HTML,CSS, & JavaScript Examples
 ***
 
-A collection of HTML, CSS, and Javascript examples of my work.
+A collection of HTML, CSS, and JavaScript examples of my work.
 
 Return to [portfolio](../../../)
